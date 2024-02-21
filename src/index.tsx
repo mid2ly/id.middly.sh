@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import {AuthProvider, AuthProviderProps} from "react-oidc-context";
 import {WebStorageStateStore} from "oidc-client-ts";
 
-console.log(process.env.OIDC_REDIRECT_URL)
 const oidcConfig: AuthProviderProps = {
     authority: process.env.REACT_APP_AUTHORITY ?? "",
     client_id: process.env.REACT_APP_CLIENT_ID ?? "",

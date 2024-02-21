@@ -23,6 +23,11 @@
   color: black;
 }
 
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
 .info {
   display: flex;
   column-gap: 5px;
